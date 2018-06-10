@@ -82,6 +82,6 @@ function areEqual(a, b, type) {
     }
 }
 
-input = [1, 2, 4, 591, 392, 391, 2, 5, 10, 2, 1, 1, 1, 20, 20, null, null, null, undefined, undefined, undefined, true, true, false,
+const input = [1, 2, 4, 591, 392, 391, 2, 5, 10, 2, 1, 1, 1, 20, 20, null, null, null, undefined, undefined, undefined, true, true, false,
     '1', '1', '3', '2', '3', { id: 5 }, { id: 15 }, { id: 5 }];
-question1(input);
+console.log(question1(input));

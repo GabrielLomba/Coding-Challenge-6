@@ -10,7 +10,7 @@ function question2(array, target) {
     return [];
 }
 
-input = [
+const input = [
     17, 29,	29,	70,	94,
     30,	48,	70,	75,	17,
     77,	62,	96,	43,	24,
@@ -31,5 +31,5 @@ input = [
     37,	64,	32,	41,	15,
     19,	39,	69,	64,	83,
     59,	1,	64,	1,	69];
-sum = 182;
-question2(input, sum);
+const sum = 182;
+console.log(question2(input, sum));
