@@ -12,8 +12,3 @@ exports.convertHexRgb = function(code) {
         return `#${red}${green}${blue}`;
     }
 }
-
-const hex = '#FF5733';
-const rgb = '255, 87, 51';
-console.log(this.convertHexRgb(hex));
-console.log(this.convertHexRgb(rgb));
