@@ -1,0 +1,13 @@
+{
+    "name": "hex_rgb_conversion",
+    "description": "Tool to convert between HEX and RGB color codes.",
+    "version": "1.0.0",
+    "main": "question3.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/GabrielLomba/Coding-Challenge-6.git"
+    },
+    "author": "",
+    "keywords": ["HEX", "RGB", "Conversion"],
+    "homepage": "https://github.com/GabrielLomba/Coding-Challenge-6"
+  }

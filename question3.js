@@ -1,4 +1,4 @@
-function question3(code) {
+exports.convertHexRgb = function(code) {
     if(code[0] === '#') {
         const red = parseInt(code.slice(1, 3), 16);
         const green = parseInt(code.slice(3, 5), 16);
@@ -15,5 +15,5 @@ function question3(code) {
 
 const hex = '#FF5733';
 const rgb = '255, 87, 51';
-console.log(question3(hex));
-console.log(question3(rgb));
+console.log(this.convertHexRgb(hex));
+console.log(this.convertHexRgb(rgb));
